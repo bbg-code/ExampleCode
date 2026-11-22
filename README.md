@@ -97,4 +97,4 @@ IconUpdatesPerFrame=50
 
 ---
 
-Copyright Ergistal Collective, Bejan Bogdan Gabriel. All rights reserved. Shared as a code sample.
+Copyright Bejan Bogdan Gabriel. All rights reserved. Shared as a code sample.
