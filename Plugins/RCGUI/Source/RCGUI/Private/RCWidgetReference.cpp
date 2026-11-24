@@ -47,11 +47,6 @@ void FRCWidgetReference::SetViewModel(UUserWidget* widget, UMVVMViewModelBase* v
 
 	UMVVMView* view = widget->GetExtension<UMVVMView>();
 	const bool accepted = view && view->SetViewModelByClass(TScriptInterface<INotifyFieldValueChanged>(viewModel));
-
-	/*
-	UE_LOG(LogTemp, Warning, TEXT("FRCWidgetReference::SetViewModel %s on %s: view %i accepted %i"),
-		*viewModel->GetName(), *widget->GetName(), view != nullptr, accepted);
-	//*/
 }
 
 void FRCWidgetReference::AddInstance(UUserWidget* widget, UPanelWidget* parent)

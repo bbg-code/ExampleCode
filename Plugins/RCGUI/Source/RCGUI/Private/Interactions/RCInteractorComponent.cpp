@@ -49,11 +49,6 @@ void URCInteractorComponent::CancelInteraction()
 
 void URCInteractorComponent::ClearCurrentInteraction()
 {
-	/*
-	UE_LOG(LogTemp, Warning, TEXT("%i URCInteractorComponent::ClearCurrentInteraction"),
-		GetOwnerRole());
-	//*/
-
 	CurrentInteraction = nullptr;
 }
 
